@@ -163,6 +163,7 @@ a:visited {
 }
 .image-container a {
   text-decoration: underline;
+  color: gray;
 }
 
 .image-container a:visited {
