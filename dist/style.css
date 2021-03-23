@@ -124,7 +124,7 @@ a:visited {
 /* Headline */
 
 .headline-container {
-  max-width: 900px;
+  max-width: 672px;
 }
 
 .headline-container h3 {
@@ -152,7 +152,7 @@ a:visited {
 
 
 .image-container img {
-  width: 100%;
+  max-width: 672px;
 }
 
 .image-container p {
@@ -195,7 +195,7 @@ a:visited {
 }
 
 .article-p {
-  align-self: flex-start;
+  align-self: center;
   max-width: 672px;
 }
 /* .article-p p {
@@ -263,7 +263,7 @@ footer ul li a:visited {
   color: #020F59;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
 
   .author-container {
     align-self: flex-start;
@@ -271,7 +271,6 @@ footer ul li a:visited {
 
   .article-p {
     align-self: center;
-    max-width: 900px;
   }
 }
 
