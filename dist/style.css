@@ -68,13 +68,20 @@ a:visited {
   border-radius: 5px;
   transition: ease-in-out .3s;
   cursor: pointer;
+  padding: 6px;
 }
 
-#subscribe span, #subscribe i {
+#subscribe span {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  padding: 12px 8px;
+}
+
+#subscribe i {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 8px;
 }
 
 #subscribe:hover {
