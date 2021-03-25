@@ -398,7 +398,7 @@ footer ul li a:visited {
 
 @media screen and (max-width: 600px) {
 
-  .flex {
+  .flex-align-row {
     max-width: 672px;
   }
 
