@@ -67,9 +67,10 @@ a:visited {
   background: #e90606;
   border-radius: 5px;
   transition: ease-in-out .3s;
+  cursor: pointer;
 }
 
-#subscribe a, #subscribe i {
+#subscribe span, #subscribe i {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -370,8 +371,20 @@ footer ul li {
   font-size: 28px;
 }
 
-footer ul li a {
-  color: #020F59;
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
 }
 
 footer ul li a:visited {
@@ -406,6 +419,13 @@ footer ul li a:visited {
   .related {
     display: none;
   }
+
+  .line-2 {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
 }
 
 
@@ -420,7 +440,7 @@ footer ul li a:visited {
   }
 
   #navbar h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   #subscribe  {
@@ -446,7 +466,7 @@ footer ul li a:visited {
     font-size: 16px;
   }
 
-  #hamburger a {
+  #hamburger i {
     display: none;
   }
 
