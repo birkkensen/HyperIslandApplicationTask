@@ -374,6 +374,11 @@ footer ul li a:visited {
 }
 
 @media screen and (max-width: 1024px) {
+
+  .article {
+    width: 80vw;
+  }
+
   .image-container img {
     width: 100vw;
   }
@@ -387,7 +392,7 @@ footer ul li a:visited {
     display: none;
   }
 
-  .line-2 {
+  .line-article {
     width: auto;
     margin-left: 10%;
     margin-right: 10%;
@@ -397,6 +402,10 @@ footer ul li a:visited {
 
 
 @media screen and (max-width: 600px) {
+
+  .article {
+    margin-top: 0;
+  }
 
   .flex-align-row {
     max-width: 672px;
