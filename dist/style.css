@@ -377,13 +377,13 @@ footer ul li a:visited {
   .image-container img {
     width: 100vw;
   }
-  
-  .flex {
+
+  .flex-align-row {
     width: auto;
     max-width: 972px;
 
   }
-  .related {
+  .related-articles {
     display: none;
   }
 
@@ -419,7 +419,14 @@ footer ul li a:visited {
     font-size: 24px;
   }
 
-  .article {
+  .article-container {
+    width: 100vw;
+    margin-top: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .headline-container {
     width: 100vw;
     margin-top: 50px;
     padding-left: 24px;
