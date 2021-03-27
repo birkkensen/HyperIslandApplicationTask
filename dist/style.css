@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
 body {
   font-family: 'Taviraj', serif;
   background: white;
@@ -22,6 +29,13 @@ a {
   font-weight: 300;
   margin-bottom: 28px;
 }
+
+.py-2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
 
 .red_color {
   color: #ce0505;
